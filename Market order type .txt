@@ -1,0 +1,21 @@
+GTT order : 
+Good till trigger (1Y)
+
+Trigger Price : 	X
+Limit Price   :	 	Y
+
+
+orde will be placed when stock price met with value x 
+order will be placed with X price,
+
+
+what if order is not matched ??
+
+Buy : system will try to perform trace with below order till success  
+
+	X
+	X+ (tick price *1)
+	x+ (tick price *2)
+	......
+	.....
+	Y
