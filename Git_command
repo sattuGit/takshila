@@ -1,0 +1,14 @@
+Charry picking in git 
+------------------------
+Steps on charry picking : 
+
+Step 1 ) Find out what you wanna pick (hash/commit point ) 
+			Hash1, Hash2
+Step 2 ) Apply hash point on current branch 
+			git cherry-pick Hash2 Hash1
+			
+		Please note , changes are applied in same order in which has is provided 
+Step 3 ) Resolve conflict if any 
+			resolve conflict and stage the changes files 
+Step 4 ) Continue charry pick process
+			git cherry-pick --continue
